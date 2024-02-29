@@ -35,6 +35,9 @@ struct ContentView: View {
                              .background(in: .capsule)
                              */
                             Image(systemName: "mappin")
+                                .onTapGesture {
+                                    print(">> tapped child")
+                                }
                         }
                         
                     } else {
