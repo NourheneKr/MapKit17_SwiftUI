@@ -303,6 +303,10 @@
 				DEVELOPMENT_TEAM = NNVGNHX9DL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "can i use your location?";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "can i use your location?";
+				INFOPLIST_KEY_NSLocationUsageDescription = "can i use your location?";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "can i use your location?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -332,6 +336,10 @@
 				DEVELOPMENT_TEAM = NNVGNHX9DL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "can i use your location?";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "can i use your location?";
+				INFOPLIST_KEY_NSLocationUsageDescription = "can i use your location?";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "can i use your location?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
