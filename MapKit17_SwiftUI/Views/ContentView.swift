@@ -6,18 +6,20 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ContentView: View {
+    @ObservedObject var mapManager = MapManager()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+           SimpleMapView(mapPosition: .constant(mapManager.mapCameraPosition))
         }
-        .padding()
+        .edgesIgnoringSafeArea(.bottom)
+        .navigationTitle(mapManager.cityName ?? "Cartes")
     }
 }
+
 
 #Preview {
     ContentView()
